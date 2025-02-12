@@ -1,11 +1,11 @@
-@import"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";:root {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hentaigana:wght@200..900&display=swap');
     --primary-color: #4a90e2;
     --secondary-color: #3d7bc7;
     --background-color: #ffffff;
     --text-color: #333333;
     --border-color: #e0e0e0;
     --gray-bg: #f0f2f5;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-family: 'Noto Serif Hentaigana';
     line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-family: 'Noto Serif Hentaigana';
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -42,7 +42,7 @@ h1 {
 }
 
 button {
-    font-family: inherit;
+    font-family: 'Noto Serif Hentaigana';
     border: none;
     outline: none;
     cursor: pointer;
@@ -97,7 +97,7 @@ button:focus {
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: 'Montserrat';
+    font-family: 'Noto Serif Hentaigana';
     font-weight: 500;
 }
 
