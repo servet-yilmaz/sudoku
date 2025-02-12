@@ -242,44 +242,39 @@ body {
 
 .game-board {
     display: grid;
-    /* grid-template-rows: repeat(9,1fr); */
     padding: 0;
     gap: 1px;
     overflow: hidden;
     box-shadow: 0 1px 3px #0000001a;
-    background-color: #384860a6;
+    background-color: #384860d9;
     width: min(90vw,90vh);
     max-width: 500px;
     max-height: 500px;
     margin: 0 auto;
-    border: solid 3px;
+    border: solid 3px #384860d9;
 }
 
 .board-row {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 1px;
-    width: 100%
+    width: 100%;
 }
 
 .board-row:nth-child(3n) {
     margin-bottom: 2px
 }
 
-.board-row:last-child {
-}
+.board-row:last-child {margin-bottom: 0;}
 
 .board-row:first-child {
-    margin-top: 2px
 }
 
 .board-cell:nth-child(3n) {
     margin-right: 2px
 }
 
-.board-cell:first-child {
-    margin-left: 2px
-}
+.board-cell:last-child {margin-right: 0;}
 
 .board-cell {
     display: flex;
