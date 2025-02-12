@@ -99,6 +99,7 @@ body {
     color: var(--text-color);
     font-family: 'Noto Serif Hentaigana';
     font-weight: 500;
+    margin: 0;
 }
 
 #root {
@@ -149,7 +150,7 @@ body {
 .app-container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 16px
+    padding: 12px;
 }
 
 .game-header {
