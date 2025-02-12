@@ -241,7 +241,7 @@ body {
 
 .game-board {
     display: grid;
-    grid-template-rows: repeat(9,1fr);
+    /* grid-template-rows: repeat(9,1fr); */
     padding: 0;
     gap: 1px;
     overflow: hidden;
@@ -256,7 +256,7 @@ body {
 
 .board-row {
     display: grid;
-    grid-template-columns: repeat(9,1fr);
+    grid-template-columns: repeat(9, 1fr);
     gap: 1px;
     width: 100%
 }
@@ -290,7 +290,6 @@ body {
     color: var(--text-color);
     position: relative;
     background-color: var(--board-background);
-    /* border: 1px solid rgba(0,0,0,.1); */
 }
 
 .board-cell.same-row:not(.selected):not(.same-number),.board-cell.same-col:not(.selected):not(.same-number),.board-cell.same-block:not(.selected):not(.same-number) {
